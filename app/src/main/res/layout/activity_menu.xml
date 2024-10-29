@@ -1,0 +1,78 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/img">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_menu"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+
+
+    <Button
+        android:id="@+id/menu_sensors"
+        android:layout_width="203dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="@string/configuracion_sensor" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <!-- Botón para ver alertas -->
+    <Button
+        android:id="@+id/menu_alerts"
+        android:layout_width="185dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="@string/pantalla_de_alertas_de_emergencia" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+
+    <Button
+        android:id="@+id/menu_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="@string/configuracion_general" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+
+    <Button
+        android:id="@+id/menu_help"
+        android:layout_width="151dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="@string/ayuda" />
+
+</LinearLayout>
+
+
+

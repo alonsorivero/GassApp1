@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    android:padding="16dp"
+    android:gravity="start">
+
+    <TextView
+        android:id="@+id/tv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logo"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_config_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/configuracion"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroupIdioma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/idioma"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rb_ingles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ingles" />
+
+        <RadioButton
+            android:id="@+id/rb_espanol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/espa_ol"
+            android:checked="true" />
+    </RadioGroup>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp">
+
+        <RadioButton
+            android:id="@+id/rb_notificaciones_sonoras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notificaciones_sonoras" />
+
+        <RadioButton
+            android:id="@+id/rb_notificaciones_visuales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notificaciones_visuales" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btn_guardar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/guardar_cambios"
+        android:textColor="@android:color/white" />
+
+
+
+
+    <Button
+        android:id="@+id/button_back_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regresar"
+        android:layout_gravity="center" />
+
+</LinearLayout>
